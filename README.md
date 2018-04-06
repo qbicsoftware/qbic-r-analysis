@@ -7,11 +7,11 @@ __THIS IS WORK IN PROGRESS !__
 
 We have a R analysis template and you can use the `cookiecutter` tool for that. Please check out [https://github.com/qbicsoftware/qbic-r-analysis-template](https://github.com/qbicsoftware/qbic-r-analysis-template) and follow the instructions shown in the README.
 
-### Fork this repo
+### 1. Fork this repo
 
 Please check the [GitHub help pages](https://help.github.com/articles/fork-a-repo/) for that.
 
-### Clone the fork
+### 2. Clone the fork
 
 As easy as:
 
@@ -19,7 +19,7 @@ As easy as:
 git clone https://github.com/<yourname>/qbic-r-analysis
 ```
 
-### Create a new R analysis project using cookiecutter
+### 3. Create a new R analysis project using cookiecutter
 
 Use cookiecutter and a project from a template with:
 
@@ -39,7 +39,7 @@ project_code [QABCD]:
 ```
 The values in `[]` are the __default values__, that are taken if you just hit `enter`.
 
-### Modify the template
+### 4. Modify the template
 
 Next, you still need to make some adjustments. The current project structure looks like this:
 
