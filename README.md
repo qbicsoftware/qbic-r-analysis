@@ -1,7 +1,7 @@
 # QBiC R analysis
 _A collection of project-related Dockerfiles for a controlled R environment with defined R packages._
 
-__!! THIS IS WORK IN PROGRESS !! __
+__THIS IS WORK IN PROGRESS !__
 
 ## Build new R analysis projects from the template
 
