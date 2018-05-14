@@ -1,4 +1,4 @@
-# QBiC R analysis
+# R container library for reporanalysis
 _A collection of project-related Dockerfiles for a controlled R environment with defined R packages._
 
 __THIS IS WORK IN PROGRESS !__
