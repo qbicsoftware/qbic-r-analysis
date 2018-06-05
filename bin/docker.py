@@ -50,7 +50,9 @@ def main():
             print("Found tag {tag} for repo {repo} on DockerHub, " 
                 "no push required.".format(tag=tag, repo=repo))
             continue
+        print("Building Docker image for {}:{}".format(repo, tag))
         buildimage(repo, tag, dockerfile)
+        print("Pushing image {}:{} to DockerHub".format(repo, tag))
         pushtodocker(repo, tag)
 
 
