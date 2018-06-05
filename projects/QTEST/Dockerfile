@@ -1,5 +1,6 @@
 FROM continuumio/miniconda
 
+LABEL name="qtest-r-analysis"
 LABEL authors="Sven Fillinger"
 LABEL organization="Quantitative Biology Center"
 LABEL description="Put a short analyses description here"

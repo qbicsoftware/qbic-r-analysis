@@ -1,0 +1,19 @@
+sudo: required
+
+language:
+  - python
+
+python:
+  - "3.6"
+
+services:
+  - docker
+
+install:
+  - pip install git+https://github.com/qbicsoftware/r-lint-cli
+
+script:
+  - r-lint lint ./projects/*
+
+after_sucess:
+  - ./bin/docker.py ./projects
