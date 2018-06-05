@@ -17,4 +17,4 @@ RUN conda update -n base conda && \
     conda env create -f /tmp/environment.yml && \
     conda clean -a
 
-ENV PATH /opt/conda/envs/qbicsoftware-QTEST-ranalyses-0.1dev/bin:$PATH
+ENV PATH /opt/conda/envs/qbicsoftware-QABCD-ranalyses-0.1dev/bin:$PATH

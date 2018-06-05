@@ -1,29 +1,8 @@
-name: qbicsoftware-QTEST-ranalyses-0.1dev
+name: qbicsoftware-QABCD-ranalyses-0.1dev
 channels:
   - bioconda
   - r
   - defaults
 dependencies:
-  - r-base=3.4.2
+  - r-base=3.4.3
   - r-ggplot2
-  - r-matrixstats
-  - r-dplyr
-  - bioconductor-biomart
-  - bioconductor-org.mm.eg.db
-  - bioconductor-annotationdbi
-  - bioconductor-clusterprofiler
-  - bioconductor-dose
-  - bioconductor-deseq2
-  - bioconductor-summarizedexperiment
-  - bioconductor-delayedarray
-  - bioconductor-biobase
-  - bioconductor-genomicranges
-  - bioconductor-genomeinfodb
-  - bioconductor-iranges
-  - bioconductor-s4vectors
-  - bioconductor-biocgenerics
-  - bioconductor-genefilter
-  - r-gplots
-  - r-data.table
-  - bioconductor-edger
-  - bioconductor-limma
