@@ -16,5 +16,5 @@ install:
 script:
   - r-lint lint ./projects/*
 
-after_sucess:
+deploy:
   - ./bin/docker.py ./projects
