@@ -15,6 +15,4 @@ install:
 
 script:
   - r-lint lint ./projects/*
-
-deploy:
   - ./bin/docker.py ./projects
