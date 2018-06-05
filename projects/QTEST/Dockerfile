@@ -5,7 +5,7 @@ LABEL authors="Sven Fillinger"
 LABEL organization="Quantitative Biology Center"
 LABEL description="Put a short analyses description here"
 LABEL maintainer="Sven Fillinger <sven.fillinger@qbic.uni-tuebingen.de>"  
-LABEL version="0.1dev"
+LABEL version="0.1.1"
 LABEL github="https://github.com/qbicsoftware"
 
 # Install procps so that Nextflow can poll CPU usage

@@ -20,7 +20,6 @@ def main():
     is the most recent one on DockerHub. If not, it triggers Docker builds and pushes
     to DockerHub automatically.
     """
-    print(os.environ)
     if not os.environ.get('DOCKER_USER') or not os.environ.get('DOCKER_TOKEN'):
         print("Could not fetch Docker credentials from environment.")
         sys.exit(1)
