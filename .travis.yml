@@ -10,6 +10,7 @@ services:
   - docker
 
 install:
+  - pip install requests
   - pip install git+https://github.com/qbicsoftware/r-lint-cli
 
 script:
