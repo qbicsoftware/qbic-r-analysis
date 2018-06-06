@@ -54,7 +54,6 @@ def main():
         print("Pushing image {}:{} to DockerHub".format(repo, tag))
         pushtodocker(repo, tag)
 
-
 def pushtodocker(repo, tag):
     """Pushes a docker image to DockerHub.
     """
@@ -73,8 +72,6 @@ def pushtodocker(repo, tag):
         'docker', 'push', name
     ]
     subprocess.call(push_cmd)
-
-
 
 def buildimage(repo, tag, dockerfile):
     """Builds Docker image with specified name and tag
@@ -130,7 +127,6 @@ def tagondockerhub(repo="", tag=""):
     print(remote_tags)
     return tag in remote_tags
             
-
 if __name__ == '__main__':
     main()
 
