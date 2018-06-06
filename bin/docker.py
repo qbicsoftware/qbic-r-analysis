@@ -57,6 +57,8 @@ def main():
 
 
 def pushtodocker(repo, tag):
+    """Pushes a docker image to DockerHub.
+    """
     name = "{orga}/{repo}:{tag}".format(orga=DOCKER_ORGANISATION,
                                         repo=repo,
                                         tag=tag)
@@ -113,6 +115,10 @@ def parsedockerfile(file):
     return content
 
 def tagondockerhub(repo="", tag=""):
+    """Checks, if a given tag is already given for a repo on DockerHub.
+
+    Returns True if tag is already on DockerHub, else False
+    """
     if not repo and tag:
         return False
     resp = requests.get(DOCKER_API_URL.format(org=DOCKER_ORGANISATION, repo=repo))
