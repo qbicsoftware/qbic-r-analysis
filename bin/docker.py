@@ -58,7 +58,7 @@ def pushtodocker(repo, tag):
     """Pushes a docker image to DockerHub.
     """
     name = "{orga}/{repo}:{tag}".format(orga=DOCKER_ORGANISATION,
-                                        repo=repo,
+                                        repo=repo.lower(),
                                         tag=tag)
     pwd = os.environ['DOCKER_TOKEN']
     user = os.environ['DOCKER_USER']
@@ -77,7 +77,7 @@ def buildimage(repo, tag, dockerfile):
     """Builds Docker image with specified name and tag
     """
     name = "{orga}/{repo}:{tag}".format(orga=DOCKER_ORGANISATION,
-                                        repo=repo,
+                                        repo=repo.lower(),
                                         tag=tag)
     full_path = os.path.abspath(os.path.dirname(dockerfile))
     docker_cmd = [
