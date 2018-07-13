@@ -45,6 +45,7 @@ def main():
     # Check the DockerHub API and trigger an image build + push to DockerHub
     # if the local tag is not in semantic conflict with a remote tag.
     for repo, tag, dockerfile in local_repotags:
+        repo = repo.lower()
         if tagondockerhub(repo=repo, tag=tag):
             print("Found tag {tag} for repo {repo} on DockerHub, " 
                 "no push required.".format(tag=tag, repo=repo))
