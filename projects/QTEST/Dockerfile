@@ -6,7 +6,7 @@ LABEL organization="Quantitative Biology Center"
 LABEL description="Put a short analyses description here"
 LABEL maintainer="Sven Fillinger <sven.fillinger@qbic.uni-tuebingen.de>"  
 LABEL version="0.1.1"
-LABEL github="https://github.com/qbicsoftware"
+LABEL github="https://github.com/qbicsoftware/r-container-lib"
 
 # Install procps so that Nextflow can poll CPU usage
 RUN apt-get update && apt-get install -y procps && apt-get clean -y 

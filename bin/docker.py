@@ -45,6 +45,7 @@ def main():
     # Check the DockerHub API and trigger an image build + push to DockerHub
     # if the local tag is not in semantic conflict with a remote tag.
     for repo, tag, dockerfile in local_repotags:
+        repo = repo.lower()
         if tagondockerhub(repo=repo, tag=tag):
             print("Found tag {tag} for repo {repo} on DockerHub, " 
                 "no push required.".format(tag=tag, repo=repo))
@@ -58,7 +59,7 @@ def pushtodocker(repo, tag):
     """Pushes a docker image to DockerHub.
     """
     name = "{orga}/{repo}:{tag}".format(orga=DOCKER_ORGANISATION,
-                                        repo=repo,
+                                        repo=repo.lower(),
                                         tag=tag)
     pwd = os.environ['DOCKER_TOKEN']
     user = os.environ['DOCKER_USER']
@@ -77,7 +78,7 @@ def buildimage(repo, tag, dockerfile):
     """Builds Docker image with specified name and tag
     """
     name = "{orga}/{repo}:{tag}".format(orga=DOCKER_ORGANISATION,
-                                        repo=repo,
+                                        repo=repo.lower(),
                                         tag=tag)
     full_path = os.path.abspath(os.path.dirname(dockerfile))
     docker_cmd = [
