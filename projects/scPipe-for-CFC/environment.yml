@@ -1,0 +1,8 @@
+name: scPipe-for-CFC-ranalysis-0.1
+channels:
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - r-base=3.4.3
+  - bioconductor-scpipe=1.0.0
