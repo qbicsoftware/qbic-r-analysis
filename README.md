@@ -16,7 +16,8 @@ Please check the [GitHub help pages](https://help.github.com/articles/fork-a-rep
 As easy as:
 
 ```
-git clone https://github.com/<yourname>/qbic-r-analysis
+git clone https://github.com/<yourname>/r-container-lib
+
 ```
 
 ### 3. Create a new R analysis project using cookiecutter
