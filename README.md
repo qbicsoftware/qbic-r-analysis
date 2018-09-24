@@ -25,7 +25,7 @@ git clone https://github.com/<yourname>/r-container-lib
 Use cookiecutter and a project from a template with:
 
 ```
-cookiekutter https://github.com/qbicsoftware/qbic-r-analysis-template
+cookiecutter https://github.com/qbicsoftware/qbic-r-analysis-template
 ```
 
 You will get asked to answer some questions, and cookiecutter will automatically put the information into the template!
