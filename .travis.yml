@@ -14,5 +14,6 @@ install:
   - pip install git+https://github.com/qbicsoftware/r-lint-cli
 
 script:
+  - set -e
   - "ls -1 ${TRAVIS_BUILD_DIR}/projects/ | xargs -i r-lint lint ${TRAVIS_BUILD_DIR}/projects/{} "
   - "python ${TRAVIS_BUILD_DIR}/bin/docker.py ${TRAVIS_BUILD_DIR}/projects"
