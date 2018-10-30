@@ -1,12 +1,12 @@
 FROM continuumio/miniconda
 
-LABEL name="qtest-r-analysis"
-LABEL authors="Sven Fillinger"
+LABEL name="qMITO000_PD_ranalysis"
+LABEL authors="Timo Lucas"
 LABEL organization="Quantitative Biology Center"
-LABEL description="Put a short analyses description here"
-LABEL maintainer="Sven Fillinger <sven.fillinger@qbic.uni-tuebingen.de>"  
-LABEL version="0.1.1"
-LABEL github="https://github.com/qbicsoftware/r-container-lib"
+LABEL description="Quality Control of Microarray Data for MITO_PD project"
+LABEL maintainer="Timo Lucas <timo-niklas.lucas@student.uni-tuebingen.de>"  
+LABEL version="0.1.0"
+LABEL github="https://github.com/qbicsoftware"
 
 # Install procps so that Nextflow can poll CPU usage
 RUN apt-get update && apt-get install -y procps && apt-get clean -y 
@@ -18,4 +18,4 @@ RUN conda update -n base conda && \
     conda env create -f /tmp/environment.yml && \
     conda clean -a
 
-ENV PATH /opt/conda/envs/qbicsoftware-QABCD-ranalyses-0.1dev/bin:$PATH
+ENV PATH /opt/conda/envs/qMITO-ranalysis-0.1.0/bin:$PATH
