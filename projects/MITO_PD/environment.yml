@@ -1,7 +1,0 @@
-name: qMITO-ranalysis-0.1.dev
-channels:
-  - bioconda
-  - r
-  - defaults
-dependencies:
-  - r-base=3.5.0

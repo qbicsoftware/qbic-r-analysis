@@ -1,8 +1,0 @@
-name: qbicsoftware-QABCD-ranalyses-0.1dev
-channels:
-  - bioconda
-  - r
-  - defaults
-dependencies:
-  - r-base=3.4.3
-  - r-ggplot2
