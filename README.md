@@ -7,7 +7,7 @@ __THIS IS WORK IN PROGRESS !__
 
 ## Build new R analysis projects from the template
 
-We have a R analysis template and you can use the `cookiecutter` tool for that. Please check out [https://github.com/qbicsoftware/qbic-r-analysis-template](https://github.com/qbicsoftware/qbic-r-analysis-template) and follow the instructions shown in the README.
+If you have a new R analysis project and want to add it to the R-container-lib, please follow the process described in [Rmageddon](https://github.com/qbicsoftware/r-lint-cli/blob/master/README.rst). This README assumes that you have the setup as explained in [Rmageddon](https://github.com/qbicsoftware/r-lint-cli/blob/master/README.rst).
 
 ### 1. Fork this repo
 
@@ -22,25 +22,9 @@ git clone https://github.com/<yourname>/r-container-lib
 
 ```
 
-### 3. Create a new R analysis project using cookiecutter
-
-Use cookiecutter and a project from a template with:
-
-```
-cookiecutter https://github.com/qbicsoftware/qbic-r-analysis-template
-```
-
-You will get asked to answer some questions, and cookiecutter will automatically put the information into the template!
-
-```
-> cookiekutter https://github.com/qbicsoftware/qbic-r-analysis-template
-r_version [3.2.4]: 
-author_name [Sven Fillinger]: 
-author_email [sven.fillinger@qbic.uni-tuebingen.de]: 
-container_version [0.1dev]: 
-project_code [QABCD]: 
-```
-The values in `[]` are the __default values__, that are taken if you just hit `enter`.
+### 3. Create a new R analysis project using Rmageddon
+This step is only necessary if you have not yet created a project using Rmageddon!    
+Please refer to [Rmageddon](https://github.com/qbicsoftware/r-lint-cli/blob/master/README.rst) .
 
 ### 4. Modify the template
 
