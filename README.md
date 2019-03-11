@@ -3,8 +3,6 @@
 
 _A collection of project-related Dockerfiles for a controlled R environment with defined R packages._
 
-__THIS IS WORK IN PROGRESS !__
-
 ## Build new R analysis projects from the template
 
 If you have a new R analysis project and want to add it to the R-container-lib, please follow the process described in [Rmageddon](https://github.com/qbicsoftware/r-lint-cli/blob/master/README.rst). This README assumes that you have the setup as explained in [Rmageddon](https://github.com/qbicsoftware/r-lint-cli/blob/master/README.rst).
@@ -33,20 +31,25 @@ Next, you still need to make some adjustments. The current project structure loo
 ```
 projects/
     projectA/
-        Dockerfile
-        rpackages.txt
         scripts/
           myscript.R
+        data/
+        Dockerfile
+        environment.yml     
     projectB/
         ...
 ```
 
-When you have created your project, you have to replace the content of the `rpackages.txt` with the packages you want to have installed in your R container.
+Add a subfolder project[X] for your new project and copy its contents into it. Ensure that it contains a Dockerfile, an environment.yml file *after* the building process of Rmageddon, a data folder and finally a scripts folder with your R scripts.
 
-__Export the packages from the R session variable__
+### 5. Sanity check: lint
 
-RCOMMAND
+If you want to finally verify that your newly added project doesn't break any requirements you can run Rmageddon lint again on it. Please refer to [Rmageddon](https://github.com/qbicsoftware/rmageddon-cli/blob/master/doc/Rmageddon.md) .
 
+### 6. Publish your R project
+
+The only thing left is to submit a pull request or directly commit to this repository. 
+If you don't remember git so well, this condensed cheatsheet may help [Git Cheatsheet](https://www.keycdn.com/blog/git-cheat-sheet).
 
 ## Author
 
