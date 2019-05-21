@@ -67,7 +67,7 @@ def pushtodocker(repo, tag):
         'docker', 'login', '-p', pwd,
         '-u', user
     ]
-    subprocess.call(login_cmd)
+    subprocess.check_call(login_cmd)
 
     push_cmd = [
         'docker', 'push', name
@@ -85,7 +85,7 @@ def buildimage(repo, tag, dockerfile):
         'docker', 'build', 
         '-t', name, '-f', dockerfile, full_path
     ]
-    subprocess.call(docker_cmd)
+    subprocess.check_call(docker_cmd)
 
 def tagsfromdocker(file_list):
     """Extracts repo names and tags from a Dockerfile list
