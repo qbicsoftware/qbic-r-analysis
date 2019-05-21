@@ -1,4 +1,4 @@
-# R container library for reporanalysis
+# R container library for R analyses
 [![Build Status](https://travis-ci.org/qbicsoftware/r-container-lib.svg?branch=master)](https://travis-ci.org/qbicsoftware/r-container-lib)
 
 _A collection of project-related Dockerfiles for a controlled R environment with defined R packages._
