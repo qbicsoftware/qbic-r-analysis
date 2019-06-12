@@ -4,7 +4,7 @@ channels:
   - r
   - defaults
 dependencies:
-  - r-base=3.4.0
+  - r-base=3.4.3
   - bioconductor-scpipe=1.2.1
   - bioconductor-singlecellexperiment=1.0.0
   - bioconductor-summarizedexperiment=1.8.0
