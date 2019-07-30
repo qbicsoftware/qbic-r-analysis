@@ -3,9 +3,10 @@ channels:
   - bioconda
   - r
   - defaults
+  - conda-forge
+  - anaconda 
 dependencies:
   - r-base=3.5.1
-  - bioconductor-scpipe=1.4.1
   - bioconductor-singlecellexperiment=1.4.0
   - bioconductor-summarizedexperiment=1.12.0
   - bioconductor-delayedarray=0.8.0
@@ -17,4 +18,5 @@ dependencies:
   - bioconductor-iranges=2.16.0
   - bioconductor-s4vectors=0.20.1
   - bioconductor-biocgenerics=0.28.0
-  - r-ggplot2=3.1.1
+  - r-ggplot2=3.0.0
+  - bioconductor-scpipe=1.4.1
