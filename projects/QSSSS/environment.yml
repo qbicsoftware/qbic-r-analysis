@@ -17,4 +17,4 @@ dependencies:
   - bioconductor-iranges=2.16.0
   - bioconductor-s4vectors=0.20.1
   - bioconductor-biocgenerics=0.28.0
-  - r-ggplot2=3.0.0
+  - r-ggplot2=3.1.1
