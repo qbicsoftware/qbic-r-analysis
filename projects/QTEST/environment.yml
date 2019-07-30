@@ -1,4 +1,4 @@
-name: QTEST_ranalysis
+name: QTEST000_scpipe_ranalysis0.1.0
 channels:
   - bioconda
   - r
