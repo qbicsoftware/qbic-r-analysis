@@ -1,6 +1,6 @@
 FROM continuumio/miniconda
 
-LABEL name="QSCRN000_scpipe_ranalysis"
+LABEL name="qSCRN000_scpipe_ranalysis"
 LABEL authors="Praveen Baskaran"
 LABEL organization="Quantitative Biology Center"
 LABEL description="single cell RNA-seq analysis using scpipe"
