@@ -1,6 +1,6 @@
 FROM continuumio/miniconda
 
-LABEL name="QSCRNA000_single cell rnaseq _ranalysis"
+LABEL name="QSCRNA_ranalysis"
 LABEL authors="Praveen Baskaran"
 LABEL organization="Quantitative Biology Center"
 LABEL description="single cell rnaseq"
