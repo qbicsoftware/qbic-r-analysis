@@ -1,4 +1,4 @@
-name: QSCRNA_basic_ranalysis0.1.0
+name: QSCRNA00_basic_ranalysis0.1.0
 channels:
   - bioconda
   - r
