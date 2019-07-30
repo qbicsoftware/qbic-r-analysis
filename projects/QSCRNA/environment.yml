@@ -1,4 +1,4 @@
-name: QSCRNA000_single cell rnaseq _ranalysis0.1.0
+name: QSCRNA_ranalysis0.1.0
 channels:
   - bioconda
   - r
