@@ -1,6 +1,6 @@
 FROM continuumio/miniconda
 
-LABEL name="QTEST000_basic_ranalysis"
+LABEL name="QTEST_ranalysis"
 LABEL authors="Praveen Basakran"
 LABEL organization="Quantitative Biology Center"
 LABEL description="scrna test sample"
