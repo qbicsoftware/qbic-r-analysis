@@ -8,7 +8,7 @@ dependencies:
   - bioconductor-affycoretools=1.50.6
   - r-knitr=1.20
   - bioconductor-annotate=1.58.0
-  - r-xml
+  - r-xml=3.98.0
   - bioconductor-annotationdbi=1.40.0
   - r-statmod=1.4.30
   - r-dendextend=1.8.0
@@ -22,7 +22,7 @@ dependencies:
   - bioconductor-s4vectors=0.16.0
   - bioconductor-oligoclasses=1.40.0
   - bioconductor-limma=3.34.9
-  - r-rcolorbrewer
+  - r-rcolorbrewer=1.1.0
   - bioconductor-siggenes=1.52.0
   - bioconductor-multtest=2.34.0
   - bioconductor-biobase=2.38.0
