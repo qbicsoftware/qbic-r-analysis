@@ -1,7 +1,7 @@
 name: QMITO000_PD_ranalysis0.1.0
 channels:
+  - conda-forge
   - bioconda
-  - r
   - defaults
 dependencies:
   - r-base=3.4.4
