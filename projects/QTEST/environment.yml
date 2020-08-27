@@ -1,4 +1,4 @@
-name: r-environment
+name: QTEST000_Test_ranalysis0.1.0
 channels:
   - defaults
 dependencies:
