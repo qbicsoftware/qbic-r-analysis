@@ -69,7 +69,6 @@ dependencies:
   - nbformat=5.0.7=py_0
   - ncurses=6.2=h0a44026_1
   - notebook=6.0.3=py38_0
-  - openssl=1.1.1g=h1de35cc_0
   - packaging=20.4=py_0
   - pandoc=2.9.2.1=0
   - pandocfilters=1.4.2=py38_1
