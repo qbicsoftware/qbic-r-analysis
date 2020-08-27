@@ -1,5 +1,7 @@
 name: QTEST000_Test_ranalysis0.1.0
 channels:
+  - bioconda
+  - conda-forge
   - defaults
 dependencies:
   - _r-mutex=1.0.0=anacondar_1
