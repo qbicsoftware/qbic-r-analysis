@@ -12,7 +12,7 @@ services:
 install:
   - pip install --upgrade pip
   - pip install requests
-  - pip install rmageddon
+  - pip install rmageddon==0.3.1
 
 script:
   - set -e
