@@ -1,0 +1,7 @@
+name: QMKTC000_basic_ranalysis0.1.0
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=3.4.3
