@@ -1,4 +1,4 @@
-name: QTEST000_Test_ranalysis0.1.0 
+name: QTEST000_Test_ranalysis0.1.0
 channels:
   - bioconda
   - conda-forge
@@ -312,3 +312,23 @@ dependencies:
   - yarl=1.3.0=py36h14c3975_1000
 
 
+  - bioconductor-chippeakanno=3.12.0
+  - r-venndiagram=1.6.20
+  - r-futile.logger=1.4.3
+  - bioconductor-biomart=2.34.2
+  - r-data.table=1.12.2
+  - bioconductor-bsgenome.hsapiens.ucsc.hg19=1.4.0
+  - r-ggplot2=3.1.1
+  - r-reshape=0.8.8
+  - bioconductor-cager=1.20.0
+  - bioconductor-bsgenome=1.46.0
+  - bioconductor-rtracklayer=1.38.3
+  - bioconductor-biostrings=2.46.0
+  - bioconductor-xvector=0.18.0
+  - bioconductor-genomicranges=1.30.3
+  - bioconductor-genomeinfodb=1.14.0
+  - bioconductor-iranges=2.12.0
+  - bioconductor-s4vectors=0.16.0
+  - bioconductor-biocgenerics=0.24.0
+  - r-revoutils=10.0.8
+  - r-revoutilsmath=10.0.1
