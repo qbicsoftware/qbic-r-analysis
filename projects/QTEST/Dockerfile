@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y procps && apt-get clean -y
 RUN conda update -n base conda
 # Copy the list of R packages into the container's /tmp dir
 COPY environment.yml /tmp
+COPY data /tmp
+COPY scripts /tmp
 RUN conda update -n base conda && \
     conda env create -f /tmp/environment.yml && \
     conda clean -a
