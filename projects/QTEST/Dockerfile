@@ -5,7 +5,7 @@ LABEL authors="Laurence Kuhlburger"
 LABEL organization="Quantitative Biology Center"
 LABEL description="Test"
 LABEL maintainer="Laurence Kuhlburger <laurence.kuhlburger@uni-tuebingen.de>"  
-LABEL version="0.1.0"
+LABEL version="0.2.0"
 LABEL github="https://github.com/qbicsoftware"
 
 # Install procps so that Nextflow can poll CPU usage
