@@ -309,7 +309,7 @@ sample_div_q0 <- sample_div@diversity[which(sample_div@diversity$q == 0),]
 paste0("Sample diversity at Q=0 (n=", sample_div@n[1], ")")
 
 dodge <- position_dodge(width = 0.9)
-g1 <- ggplot(sample_div_q1, aes(y=d, x=POPULATION, fill=POPULATION)) + 
+g1 <- ggplot(sample_div_q0, aes(y=d, x=POPULATION, fill=POPULATION)) + 
   geom_point(position=dodge, stat="identity", aes(fill=POPULATION)) +
   geom_errorbar(aes(ymin=d-d_sd, ymax=d+d_sd), width = .2, position=dodge) +
   xlab("") + ylab("Diversity (q=0)") +
